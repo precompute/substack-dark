@@ -1,0 +1,26 @@
+#+TITLE: Substack Dark Userstyle
+#+STARTUP: overview
+
+This [[https://github.com/openstyles/stylus][Stylus]] addon renders a dark mode for ~*.substack.com~ domains.
+
+[[https://raw.githubusercontent.com/t-e-r-m/substack-dark/master/substack-dark.user.css][Install with Stylus]]
+
+* TOC :TOC:
+- [[#screenshots][Screenshots]]
+  - [[#post][Post]]
+  - [[#comments][Comments]]
+- [[#issues][Issues]]
+  - [[#none-so-far][None so far?]]
+- [[#log][Log]]
+  - [[#20-10-10][[20-10-10]]]
+
+* Screenshots
+** Post
+[[file:screenshots/substackpost.jpeg]]
+** Comments
+[[file:screenshots/substackcomments.jpeg]]
+* Issues
+** None so far?
+* Log
+** [20-10-10]
+Version =1.0.0=.

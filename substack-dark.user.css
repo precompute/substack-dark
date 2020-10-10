@@ -1,0 +1,80 @@
+/* ==UserStyle==
+@name         Substack Dark
+@version      1.0.0
+@description  Dark theme for substack
+@namespace    t-e-r-m
+@author       t-e-r-m
+@homepageURL  https://github.com/t-e-r-m/substack-dark
+@supportURL   https://github.com/t-e-r-m/substack-dark/issues
+@updateURL    https://github.com/t-e-r-m/substack-dark/raw/master/substack-dark.user.css
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("substack.com"){
+
+    body,
+    .intro-popup .intro-popup-page.intro-popup-page-0
+    {
+        background-color: #111;
+        color: #eee;
+    }
+
+    .main-menu .topbar,
+    .main-menu .drop-down,
+    .footer-wrap .footer,
+    .comment > .comment-list > .comment-list-collapser:hover .comment-list-collapser-line
+    {
+        background-color: #000;
+    }
+
+
+    .post p, .post h1, .post h2, .post h3, .post h4, .post h5, .post h6
+    {
+        color: #b1b1b1;
+    }
+
+    .main-menu .topbar .container .headline .name,
+    .post p a, .post h1 a, .post h2 a, .post h3 a, .post h4 a, .post h5 a, .post h6 a,
+    table.thread-head p, table.thread-head h1, table.thread-head h2, table.thread-head h3, table.thread-head h4, table.thread-head h5, table.thread-head h6,
+    .post-preview > .post-preview-content > .post-preview-title,
+    .full-email-form .publication-name,
+    .full-email-form .maybe-later,
+    table.post-meta tr td.post-meta-item,
+    .post .subtitle
+    {
+        color: #eee;
+    }
+
+    .post-header .post-title,
+    .post-header .post-title a,
+    .home-page .home-sitemap .home-sitemap-links a,
+    .portable-archive .portable-archive-tabs a.portable-archive-tab.active
+    {
+        color: #fff !important;
+    }
+
+    .comment .comment-body
+    {
+        color: #d3d3d3;
+    }
+
+    .home-page .home-big-post.post-preview > .post-preview-content > .post-preview-description,
+    .portable-archive .portable-archive-list .portable-archive-all,
+    a,
+    .post-preview > .post-preview-content > .post-preview-description
+    {
+        color: #bbb;
+    }
+
+    .full-container-border
+    {
+        border-top: 1px solid #000;
+    }
+
+    .form input, .form textarea, .form div.inputWrap,
+    .full-email-form .form .sideBySideWrap input[type="email"]
+    {
+        background-color: #111;
+        color: #eee;
+    }
+}
