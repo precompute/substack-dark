@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Substack Dark
-@version      1.0.0
+@version      1.1.0
 @description  Dark theme for substack
 @namespace    t-e-r-m
 @author       t-e-r-m
@@ -22,7 +22,9 @@
     .main-menu .topbar,
     .main-menu .drop-down,
     .footer-wrap .footer,
-    .comment > .comment-list > .comment-list-collapser:hover .comment-list-collapser-line
+    .comment > .comment-list > .comment-list-collapser:hover .comment-list-collapser-line,
+    .single-post-container,
+    .home-page
     {
         background-color: #000;
     }
